@@ -1,0 +1,14 @@
+This is Web Project
+Tools used are HTML, CSS, PHP, MySQL
+
+A person needs to sign up before accessing the website and can freely download the photo
+
+Please Import mysql Database named website.sql from the folder my database for the project to work
+
+To access controlAdmin.php
+open controlAdmin.php file manually
+
+Name = admin
+Password = admin
+
+admin can upload and delete photo

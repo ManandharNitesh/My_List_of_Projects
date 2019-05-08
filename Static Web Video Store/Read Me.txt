@@ -1,0 +1,6 @@
+It is static web based projcet
+Tools Used are HTML,CSS, JavaScript
+
+User can watch and download the video
+
+User can also register but since no database is used it is only used for checking user validation from JavaScript

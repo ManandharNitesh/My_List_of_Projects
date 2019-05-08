@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial;
+	font-size: 14px;
+	color: #333333;
+	background-color: #ffffff;
+}
+.top-wrapper{
+	width:100%;
+	margin:0; 
+}
+.container,.footer{
+	max-width: 1000px;
+	margin :0 auto;
+	background-color: #afa7a8;
+}
+.logo img{
+	border:0;
+	width:200px;
+}
+.logo{
+	float:left;
+	width:200px;
+}
+.heading{
+	float :right;
+	width:800px;
+}
+.title{
+	float: left;
+    font-size: 30pt;
+    text-align: center;
+    padding: 40px 80px 40px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: #000000;
+}
+.login{
+	float:right;
+    width: 300px;
+    padding: 10px 0px 10px 0;
+}
+.submit{
+	padding: 8px 15px;
+	background-color: green;
+	font-weight: bold;
+	color: white;
+	margin: 0;
+	border: none;
+}
+.intro{
+	float:left;
+	width:600px;
+
+}
+.signup{
+	float:right;
+	width:400px;
+}
+h1{
+	text-align: center;
+ 	font-size: 20;
+ 	padding: 40px 0 40px 0;
+}
+.body-container{
+	background-color:#dedbdc; 
+	margin :0 auto;
+	max-width: 1000px;
+	height: 1500px;
+}
+.input-box {
+	width: 100%;
+	display: block;
+	padding: 8px;
+	margin: 10px 10px 10px 0;
+}
+.login-input{
+	padding:4px;
+	margin:0px 10px ;
+}
+h2{
+text-align: center;
+
+}
+.imgslider{
+	
+padding: 10px 150px;
+}
+.form2{
+padding-right: 20px;
+}

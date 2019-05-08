@@ -1,0 +1,26 @@
+This is web based project
+
+Tools used Bootstrap PHP MySQL
+
+Please Import MySQL database named job.sql from My Database folder for project to work
+
+Here 3 comany has been created as
+cloud factory
+It comapny
+Hawan
+
+An applicant can apply in any of the company by filling the form
+
+Online Job Application is the main folder or main site for applying for job
+
+Other folder of job providing company are
+Cloud 
+It
+Hawan
+
+Each admin of company can access their specific database by logging in with 
+username = admin
+password = admin
+
+admin can also delete the CV or details of applicants
+

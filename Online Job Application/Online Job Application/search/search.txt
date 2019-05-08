@@ -1,0 +1,11 @@
+CREATE TABLE article(
+	a_id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    a_title VARCHAR(256) NOT NULL,
+    a_text text NOT NULL,
+    a_author VARCHAR(256) NOT NULL,
+    a_date datetime NOT NULL
+);
+
+INSERT INTO article (a_title,a_text,a_author,a_date) VALUES('50 great summer recepies','There are many recepies u can make in summer like chyaang, beer, vodka','ADMIN','2017-11-25 12:23:11');
+
+INSERT INTO article (a_title,a_text,a_author,a_date) VALUES('A series of computer software','Following are the current most popular software we provide photoshop, MS-office,PiCAsa','Nitesh Manandhar','2017-11-25 12:23:11');

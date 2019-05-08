@@ -1,0 +1,14 @@
+This is java project
+
+we can 
+add person
+add and update book
+issue and return book
+set fine amount
+
+a person cannot take another book if he has fine amount which is not paid
+fine amount is charged after certain days of book issue if it is not returned and the charge increses every day 
+
+icon may not contain photo and the icon may seem good but it functions well
+
+please import mysql database named library.sql from My Database folder for project to work

@@ -1,0 +1,49 @@
+<?php
+	include "AdminHeader.php";
+	include "dbh.php";
+?>
+	
+	<div class="article-container">
+	<?php
+	/* if 2 or more results only one when clicked if same date*/
+		$email = mysqli_real_escape_string($db,$_GET['email']);//FROM URL can also see in url
+
+		$sql ="SELECT * FROM cv WHERE Email='$email'";
+		$result =mysqli_query($db,$sql);
+		$queryResults = mysqli_num_rows($result);//number of rows on result ie 2 now
+
+		if($queryResults > 0){
+			while($row = mysqli_fetch_assoc($result)){
+				echo "<div class='article-box'>";
+					///////////////////////////
+
+
+				?>
+				<p><?php echo $row['First_Name']; ?></p>
+				<p><?php echo $row['Last_Name']; ?></p>
+
+
+
+				<?php
+					
+				
+					echo "<p>".$row['Last_Name']."</p>";
+					echo "<p>".$row['DOB']."</p>";
+					echo "<p>".$row['Email']."</p>";
+					echo "<p>".$row['Phone_Number']."</p>";
+					echo "<img src='images/".$row['Photo']."'>";
+					echo "<p>".$row['Category']."</p>";
+					echo "<p>".$row['Education']."</p>";
+					echo "<p>".$row['Skills']."</p>";
+					echo "<p>".$row['Hobbies']."</p>";
+					echo "<p>".$row['Why']."</p>";
+					
+					
+				echo "</div>";
+			}
+		}
+	?>
+</div><!--article-container-->
+<?php
+include "Footer.php";
+?>
