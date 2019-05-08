@@ -1,0 +1,138 @@
+<html>
+<head>
+<script src="reg_java.js"></script>
+<script src="java.js"></script>
+
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<style type="text/css">
+td{
+	height:40px;
+	text-align:left;
+}
+</style>
+<title></title></head>
+<body>
+<div class=" wrapper">
+<div id="header">
+	<div id="logo"><a href="index.html"><img src="images/logo/one12.png" width="150 px" height="150 px"></a></div><!--logo-->
+    <div id="name"><a name="top">OnlineMovies</a></div><!--date-->
+    <div id="menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+
+
+<li><a href="#">Movies</a>
+	<ul>
+    	<li><a href="nepalimov.html">NEPALI</a></li>
+		<li><a href="americanmov.html">AMERICAN</a></li>
+		<li><a href="hindimov.html">HINDI</a></li>
+
+    </ul>
+</li>
+<li><a href="register.html">Register</a></li>
+</ul></div><!--menu-->
+</div><!--header-->
+</div><!--wrapper-->
+<div class="separater"></div><!--separater-->
+<div class="wrapper">
+
+<div id="banner"> </div><!--banner-->
+<div id="button">
+<button class="btn" onClick="a()">1</button>
+<button class="btn" onClick="b()">2</button>
+<button class="btn" onClick="c()">3</button>
+</div><!--button-->
+<div id="main-contetnt">
+		<div id="remember">
+    	<p style="color:white; text-align:center; font-size:23px;">Remenber Us <br>for <br>Great Movies  <br><br>
+        Follow Us ON</p>
+        
+       <div class="social">
+       <a href="http://www.facebook.com"><img src="images/facebook.png"> Facebook</a>
+       </div><!--social-->
+        <div class="social">
+       <a href="http://www.twitter.com"><img src="images/twitter.png"> Twitter</a>
+       </div><!--social-->
+        <div class="social">
+       <a href="http://www.google.com"><img src="images/google.png"> Google</a>
+       </div><!--social-->
+        <marquee>
+        <p style="text-align:center; padding-top:25px; font-size:23px;">NEVER</p>
+    <p style="text-align:center; padding-top:25px; font-size:23px;">COMPROMISE</p>
+    <p style="text-align:center; padding-top:25px; font-size:23px;">ON</p>
+    <p style="text-align:center; padding-top:25px; font-size:23px;">MOVIES</p>
+    </marquee>
+    </div> <!--remember-->
+    <div id="contetnt">
+    <marquee><p style="font-size:25px;">Register For Auto Update on New Films</p></marquee>
+  <form name="f" method="POST" onSubmit="validation()">
+ <table>
+  <tr> 
+  <td>NAME    </td>
+  <td><input type="text" name="name" size="43"></td>
+  </tr>
+ 
+  <tr> 
+  <td>EMAIL ID</td>
+  <td> <input type="text" name="email" size="43"></td>
+  </tr>
+  <tr> 
+  <td>PASSWORD</td>
+  <td><input type="password" name="pass1" size="43"></td>
+  </tr>
+  <tr> 
+  <td>RE-PASSWORD</td>
+  <td><input type="password" name="pass2" size="43"></td>
+  </tr>
+  <tr> 
+  <td>NATION</td>
+  <td><select name="nation">
+   <option value="-1"> Select Your Country</option>    
+        <option value="Nepal"> NEPAL</option>     
+         <option value="Korea"> KOREA</option>     
+          <option value="Japan"> JAPAN</option>     
+           <option value="USA"> USA</option>     
+            <option value="China"> CHINA </option>    
+            </select></td>
+  </tr>
+  
+  <tr> 
+  <td>GENDER</td>
+  <td><input type="radio" value="Male" name="gender">MALE
+  		<input type="radio" value="Female" name="gender">FEMALE</td>
+  </tr>
+  <tr> 
+  <td>FAVOURITE</td>
+  <td><input type="checkbox" name="fav" value="Nepali"> Nepali
+    				<input type="checkbox" name="fav" value="Hindi"> Hindi
+                    <input type="checkbox" name="fav" value="American"> American
+                   
+  </tr>
+ 
+  <tr> 
+  <td valign="top">COMMENT</td>
+  <td><textarea rows="11" cols="44" name="comment"></textarea></td>
+  </tr>
+  
+  <tr> 
+  <td><input type="submit" value="Register" > <input type="reset" value="Reset"></td>
+  <td></td>
+  </tr>    
+                    
+                   </table> 
+      
+                    </form>
+  
+    
+    </div><!--content-->
+</div><!--main-content-->
+</div><!--wrapper-->
+<div class="separater"></div><!--separater-->
+<div class="wrapper">
+<div id="footer">&copy; OnlineMovies.com<br>
+    <a href="#top"><input type="button"  Value="Go To Top"</a>
+    </div><!--footer-->
+</div><!--wrapper-->
+</body></html>
